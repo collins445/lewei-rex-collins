@@ -1,0 +1,19 @@
+img{
+    width: 8%;
+    height: 200px;
+}
+button{
+    background-color:yellow;
+    color: white;
+    border-radius: 30px;
+    height: 60px;
+    width: 100px;
+}
+
+
+
+button:hover{
+    color: orange;
+    transition: 0.5s;
+     background-color: black;
+}

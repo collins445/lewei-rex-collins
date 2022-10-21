@@ -1,0 +1,38 @@
+
+nav{
+text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline;
+    margin-right: 40px;
+}
+
+.well{
+    text-align: center;
+    padding-top: 8%;
+    font-size: 50px
+}
+button { background-color: goldenrod;
+    border-radius: 40px;
+    height: 60px;
+    width: 100px;}
+    button a{
+        color: white;
+    }
+
+    button:hover{
+        color: orange;
+        transition: 0.5s;
+         background-color: red;
+    }
+
+    #wow{
+        position: fixed;
+        right:0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+        z-index: -1;
+    }

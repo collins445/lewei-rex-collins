@@ -1,0 +1,22 @@
+body{
+    background-image: url('../img/istockphoto-486698502-612x612.jpg');
+    background-repeat: no-repeat;
+  background-size: cover;
+}
+button{
+  background-color:burlywood;
+  border-radius: 20px;
+  height: 60px;
+  width: 100px;
+  margin-left: 80%;
+}
+
+button a{
+  color: yellow;
+}
+
+button:hover{
+  color: grey;
+  transition: 0.5s;
+   background-color: skyblue;
+}
